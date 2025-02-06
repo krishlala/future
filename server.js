@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = onrender.com;
 var path = require("path");
 var code = __dirname;
 console.log(code);
@@ -77,5 +77,5 @@ app.post("/delPost", function (req, res) {
 
 app.listen(port, () => {
   console.log(`app listening on port ${port}`);
-  console.log("http://localhost:3000");
+  console.log("https://future-ttx5.onrender.com");
 });

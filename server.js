@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = onrender.com;
+const port = process.env.PORT || 3000;
 var path = require("path");
 var code = __dirname;
 console.log(code);
